@@ -66,15 +66,21 @@ function CountDown() {
                         </button>
                     </div>
                 )}
-                <div className="time">
+                <div className="timer-container">
+                    <div className={`time ${isCompleted ? 'hidden' : ''}`}>
                     {formatTime(seconds)}
+                    </div>
+                    {isCompleted && (
+                    <div className="completed-overlay">
+                        <div className="completed"> Your Time Is Up!</div>
+                    </div>
+                    )}
                 </div>
                 {(isActive || isCompleted) && (
-                    <button className='resetButton' onClick={resetTimer}>
+                    <button className="resetButton" onClick={resetTimer}>
                     Reset
                     </button>
                 )}
-                {isCompleted && <div className="completed">Your Time Is Up!</div>}
             </div>
         </>
     );
