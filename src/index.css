@@ -1,0 +1,80 @@
+body {
+  background-color: #f0f8ff;
+  font-family: monospace !important;;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.timer {
+  text-align: center;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.input-section {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 200px;
+  margin-right: 10px;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+input:focus {
+  border-color: #0056b3;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #007bff;
+  outline: none;
+  transition: background-color 0.3s;
+}
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+button:not(:disabled):hover {
+  background-color: #0056b3;
+}
+
+.time {
+  font-size: 400px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  color: black !important;
+}
+
+.resetButton {
+  background-color: #dc3545;
+}
+.resetButton:hover {
+  background-color: #ce0217 !important;
+}
+
+.completed {
+  font-size: 40px;
+  color: red;
+  margin-top: 20px;
+}
