@@ -72,7 +72,7 @@ function CountDown() {
                     </div>
                     {isCompleted && (
                     <div className="completed-overlay">
-                        <div className="completed"> Your Time Is Up!</div>
+                        <div className="completed">YOUR TIME IS UP!</div>
                     </div>
                     )}
                 </div>
