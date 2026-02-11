@@ -1,4 +1,6 @@
-body {
+@import "tailwindcss";
+
+/* body {
   background-color: #f0f8ff;
   font-family: monospace !important;;
   display: flex;
@@ -6,24 +8,24 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-}
+} */
 
-.timer {
+/* .timer {
   text-align: center;
   background: #fff;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   position: relative;
-}
+} */
 
-h1 {
+/* h1 {
   font-size: 36px;
   margin-bottom: 20px;
   color: #333;
-}
+} */
 
-.input-section {
+/* .input-section {
   margin-bottom: 20px;
 }
 
@@ -80,9 +82,9 @@ button:not(:disabled):hover {
 }
 .resetButton:hover {
   background-color: #ce0217 !important;
-}
+} */
 
-.completed-overlay {
+/* .completed-overlay {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -93,5 +95,5 @@ button:not(:disabled):hover {
   font-weight: 900;
   font-size: 111px;
   color: red;
-  /* margin-top: 20px; */
-}
+  /* margin-top: 20px;
+} */
